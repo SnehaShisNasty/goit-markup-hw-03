@@ -21,6 +21,17 @@ body {
 
 button {
   cursor: pointer;
+  padding: 0;
+  border: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -29,14 +40,34 @@ ul,
 li {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
+
 address {
   font-style: normal;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .link {
   text-decoration: none;
 }
-
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.page-address {
+  display: flex;
+}
 .logo {
   font-family: var(--logofont);
   font-weight: 800;
@@ -46,6 +77,8 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-left: 10px;
+  margin-right: 76px;
 }
 .logo span {
   color: #2e2f42;
@@ -53,16 +86,42 @@ address {
 .list {
   list-style: none;
 }
+.container {
+  max-width: 1165px;
+  padding-left: auto;
+  padding-right: auto;
+  margin: auto;
+}
+.header .container {
+  display: flex;
+  height: 72px;
+}
+.nav-list {
+  display: flex;
+  margin: auto;
+  gap: 40px;
+  margin-right: auto;
+}
+.nav_item {
+  margin-right: auto;
+}
 .nav_link {
   font-size: 16px;
   color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  margin-right: auto;
 }
 .nav_link:hover,
 .nav_link:active,
 .nav_link:focus {
   color: #404bbf;
+}
+.address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 78px;
 }
 .address_link {
   font-weight: 400;
@@ -111,7 +170,6 @@ address {
   color: #2e2f42;
 }
 .list_text {
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -119,7 +177,7 @@ address {
 }
 .section-header {
   font-size: 36px;
-  /* font-weight: 700; */
+
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
