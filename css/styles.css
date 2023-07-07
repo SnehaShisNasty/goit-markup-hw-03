@@ -145,10 +145,11 @@ img {
 .hero {
   height: 600px;
   background-color: var(--herobackground);
+  padding: 188px 0;
 }
 .hero .container {
   /* display: flex; */
-  padding: 188px 0;
+
   text-align: center;
 }
 .hero-header {
@@ -185,6 +186,14 @@ img {
 .hero-button:active,
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+.advantages-section .section-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_item {
+  width: calc((100% - 24px) / 4);
 }
 .list_header {
   font-size: 20px;
