@@ -187,7 +187,9 @@ img {
 .hero-button:focus {
   background-color: #404bbf;
 }
-
+.advantages-section {
+  padding: 120px 0;
+}
 .advantages-section .section-list {
   display: flex;
   flex-wrap: wrap;
