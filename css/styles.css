@@ -46,6 +46,9 @@ li {
 address {
   font-style: normal;
 }
+img {
+  display: block;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -87,14 +90,15 @@ address {
   list-style: none;
 }
 .container {
-  max-width: 1165px;
-  padding-left: auto;
-  padding-right: auto;
+  width: 1158px;
+  padding: 0 15px;
   margin: auto;
 }
+
 .header .container {
   display: flex;
   height: 72px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .nav-list {
   display: flex;
@@ -110,7 +114,7 @@ address {
   color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  margin-right: auto;
+  padding: 24px 0;
 }
 .nav_link:hover,
 .nav_link:active,
@@ -122,6 +126,7 @@ address {
   align-items: center;
   gap: 40px;
   margin-right: 78px;
+  margin-left: 210px;
 }
 .address_link {
   font-weight: 400;
@@ -135,8 +140,15 @@ address {
 .address_link:focus {
   color: #404bbf;
 }
+
 .hero {
+  height: 600px;
   background-color: var(--herobackground);
+}
+.hero .container {
+  /* display: flex; */
+  padding: 188px 0;
+  text-align: center;
 }
 .hero-header {
   font-size: 56px;
@@ -145,9 +157,13 @@ address {
   color: #ffffff;
   line-height: 1.07;
   text-align: center;
+  margin-bottom: 48px;
+  display: flex;
 }
 .hero-button {
   background-color: #4d5ae5;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
   font-weight: 500;
   font-size: 16px;
@@ -156,6 +172,7 @@ address {
   color: var(--whitetext);
 
   text-align: center;
+  padding: 16px 32px;
 }
 .hero-button:hover,
 .hero-button:active,
