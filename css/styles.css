@@ -193,16 +193,20 @@ img {
 .advantages-section .section-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 }
+
 .section_item {
-  width: calc((100% - 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
+
 .list_header {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .list_text {
   font-size: 16px;
