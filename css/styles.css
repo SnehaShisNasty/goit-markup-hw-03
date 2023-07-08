@@ -255,22 +255,28 @@ img {
   align-items: center;
 }
 .team-section .card-text {
-  padding: 32px;
+  padding: 32px 16px;
 }
 .team-section .list_header {
   margin-bottom: 8px;
 }
 .footer {
   background-color: var(--footerbackground);
+  padding: 100px 0px;
+}
+.footer .logo {
+  display: inline-block;
+}
+.footer span {
+  color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
-.footer span {
-  color: #f4f4fd;
-}
+
 .filter-button {
   background-color: #f4f4fd;
 
