@@ -283,7 +283,7 @@ img {
 .filter-button {
   background-color: #f4f4fd;
   border-radius: 4px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc transparent;
 
   font-family: var(--primaryfont);
   font-weight: 500;
@@ -313,10 +313,11 @@ img {
 }
 .portfolio-section .card {
   width: calc((100% - 2 * 24px) / 3);
-  border-bottom: 1px solid #e7e9fc;
+  row-gap: 48px;
 }
 .portfolio-section .card-text {
-  padding: 32px 0;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-section .card_title {
   margin-bottom: 8px;
