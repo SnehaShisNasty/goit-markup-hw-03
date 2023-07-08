@@ -284,6 +284,7 @@ img {
   background-color: #f4f4fd;
   border-radius: 4px;
   border: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc transparent;
 
   font-family: var(--primaryfont);
   font-weight: 500;
@@ -299,7 +300,6 @@ img {
 .filter-button:focus {
   color: #ffffff;
   background: #404bbf;
-  border: 1px solid #e7e9fc transparent;
 }
 .filter-list {
   display: flex;
