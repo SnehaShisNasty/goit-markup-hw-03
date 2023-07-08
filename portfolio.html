@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
@@ -59,138 +59,160 @@
     <!-- Main -->
     <main>
       <!-- Main Section -->
-      <section>
-        <h1>Hidden header</h1>
-        <ul class="list">
-          <li><button type="button" class="filter-button">All</button></li>
-          <li><button type="button" class="filter-button">Web Site</button></li>
+      <section class="portfolio-section">
+        <div class="container">
+          <h1 class="visually-hidden">Hidden header</h1>
+          <ul class="filter-list">
+            <li><button type="button" class="filter-button">All</button></li>
+            <li>
+              <button type="button" class="filter-button">Web Site</button>
+            </li>
 
-          <li><button type="button" class="filter-button">App</button></li>
+            <li><button type="button" class="filter-button">App</button></li>
 
-          <li><button type="button" class="filter-button">Design</button></li>
-          <li>
-            <button type="button" class="filter-button">Marketing</button>
-          </li>
-        </ul>
-        <ul class="filter-list list">
-          <li class="list_item">
-            <a class="link">
-              <img
-                src="./images/first_app.jpg"
-                alt="our project"
-                class="list_img"
-                width="360"
-                height="300"
-              />
-              <h2 class="list_header">Banking App Interface Concept</h2>
-              <p class="list_text">App</p>
-            </a>
-          </li>
-          <li class="list_item">
-            <a class="link">
-              <img
-                src="./images/first_marketing.jpg"
-                alt="our project"
-                class="list_img"
-                width="360"
-                height="300"
-              />
-              <h2 class="list_header">Cashless Payment</h2>
-              <p class="list_text">Marketing</p>
-            </a>
-          </li>
-          <li class="list_item">
-            <a class="link">
-              <img
-                src="./images/second_app.jpg"
-                alt="our project"
-                class="list_img"
-                width="360"
-                height="300"
-              />
-              <h2 class="list_header">Meditation App</h2>
-              <p class="list_text">App</p>
-            </a>
-          </li>
-          <li class="list_item">
-            <a class="link">
-              <img
-                src="./images/second_marketing.jpg"
-                alt="our project"
-                class="list_img"
-                width="360"
-                height="300"
-              />
-              <h2 class="list_header">Taxi Service</h2>
-              <p class="list_text">Marketing</p>
-            </a>
-          </li>
-          <li class="list_item">
-            <a class="link">
-              <img
-                src="./images/first_design.jpg"
-                alt="our project"
-                class="list_img"
-                width="360"
-                height="300"
-              />
-              <h2 class="list_header">Screen Illustrations</h2>
-              <p class="list_text">Design</p>
-            </a>
-          </li>
-          <li class="list_item">
-            <a class="link">
-              <img
-                src="./images/trird_marketing.jpg"
-                alt="our project"
-                class="list_img"
-                width="360"
-                height="300"
-              />
-              <h2 class="list_header">Online Courses</h2>
-              <p class="list_text">Marketing</p>
-            </a>
-          </li>
-          <li class="list_item">
-            <a class="link">
-              <img
-                src="./images/second_design.jpg"
-                alt="our project"
-                class="list_img"
-                width="360"
-                height="300"
-              />
-              <h2 class="list_header">Instagram Stories Concept</h2>
-              <p class="list_text">Design</p>
-            </a>
-          </li>
-          <li class="list_item">
-            <a class="link">
-              <img
-                src="./images/first_web-site.jpg"
-                alt="our project"
-                class="list_img"
-                width="360"
-                height="300"
-              />
-              <h2 class="list_header">Organic Food</h2>
-              <p class="list_text">Web Site</p>
-            </a>
-          </li>
-          <li class="list_item">
-            <a class="link">
-              <img
-                src="./images/second_website.jpg"
-                alt="our project"
-                class="list_img"
-                width="360"
-                height="300"
-              />
-              <h2 class="list_header">Fresh Coffee</h2>
-              <p class="list_text">Web Site</p>
-            </a>
-          </li>
-        </ul>
+            <li><button type="button" class="filter-button">Design</button></li>
+            <li>
+              <button type="button" class="filter-button">Marketing</button>
+            </li>
+          </ul>
+          <ul class="card-set list">
+            <li class="card">
+              <a class="link">
+                <img
+                  src="./images/first_app.jpg"
+                  alt="our project"
+                  class="list_img"
+                  width="360"
+                  height="300"
+                />
+                <div class="card-text">
+                  <h2 class="card_title">Banking App Interface Concept</h2>
+                  <p class="card_subtitle">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a class="link">
+                <img
+                  src="./images/first_marketing.jpg"
+                  alt="our project"
+                  class="list_img"
+                  width="360"
+                  height="300"
+                />
+                <div class="card-text">
+                  <h2 class="card_title">Cashless Payment</h2>
+                  <p class="card_subtitle">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a class="link">
+                <img
+                  src="./images/second_app.jpg"
+                  alt="our project"
+                  class="list_img"
+                  width="360"
+                  height="300"
+                />
+                <div class="card-text">
+                  <h2 class="card_title">Meditation App</h2>
+                  <p class="card_subtitle">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a class="link">
+                <img
+                  src="./images/second_marketing.jpg"
+                  alt="our project"
+                  class="list_img"
+                  width="360"
+                  height="300"
+                />
+                <div class="card-text">
+                  <h2 class="card_title">Taxi Service</h2>
+                  <p class="card_subtitle">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a class="link">
+                <img
+                  src="./images/first_design.jpg"
+                  alt="our project"
+                  class="list_img"
+                  width="360"
+                  height="300"
+                />
+                <div class="card-text">
+                  <h2 class="card_title">Screen Illustrations</h2>
+                  <p class="card_subtitle">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a class="link">
+                <img
+                  src="./images/trird_marketing.jpg"
+                  alt="our project"
+                  class="list_img"
+                  width="360"
+                  height="300"
+                />
+                <div class="card-text">
+                  <h2 class="card_title">Online Courses</h2>
+                  <p class="card_subtitle">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a class="link">
+                <img
+                  src="./images/second_design.jpg"
+                  alt="our project"
+                  class="list_img"
+                  width="360"
+                  height="300"
+                />
+                <div class="card-text">
+                  <h2 class="card_title">Instagram Stories Concept</h2>
+                  <p class="card_subtitle">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a class="link">
+                <img
+                  src="./images/first_web-site.jpg"
+                  alt="our project"
+                  class="list_img"
+                  width="360"
+                  height="300"
+                />
+                <div class="card-text">
+                  <h2 class="card_title">Organic Food</h2>
+                  <p class="card_subtitle">Web Site</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a class="link">
+                <img
+                  src="./images/second_website.jpg"
+                  alt="our project"
+                  class="list_img"
+                  width="360"
+                  height="300"
+                />
+                <div class="card-text">
+                  <h2 class="card_title">Fresh Coffee</h2>
+                  <p class="card_subtitle">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
