@@ -301,6 +301,10 @@ img {
   background: #404bbf;
   border: 1px solid transparent;
 }
+.filter-button:hover,
+.filter-button:focus {
+  border: 1px solid transparent;
+}
 .filter-list {
   display: flex;
   justify-content: center;
