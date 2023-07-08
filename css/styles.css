@@ -191,17 +191,17 @@ img {
 .advantages-section {
   padding: 120px 0;
 }
-.advantages-section .section-list {
+.advantages-section .card-set {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
 
-.section_item {
+.advantages-section .card {
   width: calc((100% - 3 * 24px) / 4);
 }
 
-.list_header {
+.card_title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -209,7 +209,7 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.list_text {
+.card_subtitle {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -229,12 +229,12 @@ img {
   padding: 120px 0;
 }
 
-.doing-section .section-list {
+.doing-section .card-set {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
-.doing-section .section_item {
+.doing-section .card {
   width: calc((100% - 2 * 24px) / 3);
 }
 
@@ -242,12 +242,12 @@ img {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.team-section .section-list {
+.team-section .card-set {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
-.team-section .list_item {
+.team-section .card {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
@@ -257,7 +257,7 @@ img {
 .team-section .card-text {
   padding: 32px 16px;
 }
-.team-section .list_header {
+.team-section .card_title {
   margin-bottom: 8px;
 }
 .footer {
@@ -266,6 +266,7 @@ img {
 }
 .footer .logo {
   display: inline-block;
+  margin-bottom: 16px;
 }
 .footer span {
   color: #f4f4fd;
