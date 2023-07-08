@@ -239,11 +239,21 @@ img {
   width: calc((100% - 2 * 24px) / 3);
 }
 
-.third-section {
+.team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
-.third-section .list_item {
+.team-section .section-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.team-section .list_item {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
 }
 .footer {
   background-color: var(--footerbackground);
