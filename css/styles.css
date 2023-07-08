@@ -223,13 +223,12 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 72px;
 }
 .doing-section {
   padding: 120px 0;
 }
-.doing-section .section-header {
-  margin-bottom: 72px;
-}
+
 .doing-section .section-list {
   display: flex;
   flex-wrap: wrap;
@@ -251,9 +250,15 @@ img {
 .team-section .list_item {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
-  border-radius: 4px;
+  border-radius: 0 0 4px 4px;
   text-align: center;
   align-items: center;
+}
+.team-section .card-text {
+  padding: 32px;
+}
+.team-section .list_header {
+  margin-bottom: 8px;
 }
 .footer {
   background-color: var(--footerbackground);
