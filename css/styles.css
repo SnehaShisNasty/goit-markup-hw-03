@@ -198,6 +198,10 @@ img {
 
 .section_item {
   width: calc((100% - 3 * 24px) / 4);
+  margin-right: 24px;
+}
+.section_item:last-child {
+  margin-right: 0px;
 }
 
 .list_header {
